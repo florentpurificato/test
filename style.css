@@ -1,0 +1,84 @@
+body{
+	background-color: #EFF0F1;
+	color: #212322;
+	font-family: 'Roboto Slab', serif;
+}
+
+h1{
+	font-weight: bold;
+	width: 100%;
+	color: #FFE033;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	color: #969797;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+i{
+	font-size: 50px;
+}
+
+.white_card{
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+  	align-items: center;
+  	justify-content: space-around;
+	text-align: center;
+	padding: 2.5%;
+	margin: 2.5%;
+	border-radius: 0.5%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+
+#profile_picture{
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+
+#social_network{
+	display: flex;
+	width: 100%;
+  	justify-content: space-around;
+}
+
+a{
+	color: #969797;
+}
+
+a:hover{
+	color: #FFE033;
+}
+
+@media (min-width: 720px) {
+	.image_media{
+		margin: 0% 45%;
+		width: 10%;
+	}
+	.description{
+		width: 45%;	
+	}
+	.liste{
+		width: 45%;
+	}
+}
+@media (max-width: 720px) {
+	.image_media{
+		margin: 0% 35%;
+		width: 30%;
+	}
+	.description{
+		width: 100%;	
+	}
+	.liste{
+		width: 100%;
+	}
+}
